@@ -1,9 +1,0 @@
-flask
-groq
-python-dotenv
-gunicorn
-pypdf
-PyPDF2
-sentence-transformers
-numpy
-duckduckgo-search
