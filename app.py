@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Master API Key Setup
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Task 6 (RAG) ke liye model embedding initialize
