@@ -226,3 +226,5 @@ def api_rag():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+    # Yeh line app.py ke bilkul aakhir mein honi chahiye
+app = app
